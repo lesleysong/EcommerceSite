@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset="UTF-8">
+<script src = "../js/jquery.min.js"></script>
+<script src = "../bootstrap/js/bootstrap/3.3.6/bootstrap.min.js"></script>
+<link rel = "stylesheet" href = "../bootstrap/css/bootstrap/3.3.6/bootstrap.min.css">
+</head>
+
+<style>
+body{
+	font-size: 12px;
+    font-family: Arial;		
+}
+a{
+	color:#999;
+}
+.yellowColor{
+	color: #ffcc00 !important;
+}
+nav.top{
+    background-color: #f2f2f2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom:1px solid  #e7e7e7;
+}
+nav.top span, nav.top a{
+    color: #999;
+    margin: 0px 10px;
+}
+nav.top a:hover{
+	color: #ffcc00;
+    text-decoration: none;//文本装饰，去掉超链接的下划线
+}
+</style>
+
+<nav class = "top">
+	<a href = "#nowhere">
+		<!--应用了boostrapt的图标类-->
+		<span class = "glyphicon glyphicon-home yellowColor"></span>
+		松鼠首页
+	</a>
+	<span>欢迎来到松鼠购物网</span>
+		<a href="#nowhere">请登录</a>
+        <a href="#nowhere">免费注册</a> 
+	<span class = "pull-right">
+		<a href="#nowhere">我的订单</a>
+		<a href="#nowhere">
+		<span class=" glyphicon glyphicon-shopping-cart yellowColor" ></span>
+		 购物车<strong>0</strong>件</a>       
+	</span>
+</nav>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset="UTF-8">
+<script src = "../js/jquery.min.js"></script>
+<script src = "../bootstrap/js/bootstrap/3.3.6/bootstrap.min.js"></script>
+<link rel = "stylesheet" href = "../bootstrap/css/bootstrap/3.3.6/bootstrap.min.css">
+</head>
+
+<style>
+div.simpleSearchDiv{
+	background-color: #ffcc00;
+    width: 300px;
+    margin: 10px 20px 40px;
+    padding: 1px;
+    height: 40px;
+    display: block;
+    float:right;
+}
+div.simpleSearchDiv input{
+    width: 225px;
+    border: 1px solid transparent;
+    height: 34px;
+    margin: 2px;
+    outline:none;
+}
+div.simpleSearchDiv button{
+    width: 60px;
+    border: 1px solid transparent;
+    background-color: #ffcc00;
+    color: white;
+    font-size: 14px;
+    /*  font-weight:bold */;
+}
+div.searchBelow{
+    margin-top: 3px;
+    margin-left: -10px;
+}
+div.searchBelow span{
+    color: #999;
+}
+div.searchBelow a{
+    padding: 0px 10px;
+    font-size: 14px;
+}
+img.simpleLogo{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+    z-index:-1;
+    height:75px;
+    width:200px;
+}
+body{
+    font-size: 12px;
+    font-family: Arial;
+}
+a{
+    color:#999;
+}
+a:hover{
+    text-decoration:none;
+    color: #C40000;
+}
+</style>
+
+<div>
+	<a href = "#nowhere">
+		<img class = "simpleLogo" id = "simpleLogo" src = "../img/logo.png">
+	</a>
+</div>
+<div class = "simpleSearchDiv pull-right"  >
+	<input type = "text" name = "keyword" placeholder = " 松果手机 橡子主机"> 
+	<button type = "button" class = "searchButton">Search</button>
+	<div class = "searchBelow">
+		<span> <a href="#nowhere"> 夏威夷果 </a> <span>|</span>
+  		</span> <span> <a href="#nowhere"> 板栗 </a> <span>|</span>
+        </span> <span> <a href="#nowhere"> 瓜子 </a> <span>|</span>
+        </span> <span> <a href="#nowhere"> 杏仁 </a></span>
+    </div>
+    <div style="clear:both"></div>
+</div>
+
+</html>
